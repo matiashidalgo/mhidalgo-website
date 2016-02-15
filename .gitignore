@@ -1,0 +1,23 @@
+#MAGENTO
+*.log
+.modgit/
+.modman/
+app/etc/local.xml
+/media/
+nbproject/
+.idea/
+/var/
+/downloader/
+sitemap.xml
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+
+#SASS
+.sass-cache/
+--compass
