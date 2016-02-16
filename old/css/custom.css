@@ -1,0 +1,152 @@
+body {
+    /*min-height: 900px;*/
+    background-size: 100% 100%;
+}
+
+#employment {
+
+}
+
+#cv div.text-field,
+#employment div.text-field {
+    display: table;
+}
+
+#cv div.text-field.date div.text-field-left,
+#employment div.text-field.date div.text-field-left {
+    display: table-cell;
+    height: 100%;
+    vertical-align: top;
+    float: none;
+    min-width: 44px;
+}
+
+#cv div.text-field.date div.text-field-right,
+#employment div.text-field.date div.text-field-right {
+    padding: 13px 20px 10px;
+    width: 100%;
+    float: none;
+    display: table-cell;
+    min-height: 125px;
+}
+
+#cv div.text-field div.text-field-right div.text,
+#employment div.text-field div.text-field-right div.text {
+    height: auto;
+}
+
+.language-selector {
+    position: absolute;
+    top: 0;
+    right: 23%;
+    display: block;
+    width: 100px;
+    padding: 0 5px 5px;
+    background: #f4f5f5;
+    border-radius: 0 0 5px 5px;
+}
+
+.language-selector .language-title {
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.language-selector .language-title-first-letter {
+    display: none;
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.language-selector ul {
+    display: table;
+    width: 100%;
+}
+
+.language-selector ul li {
+    display: table-cell;
+}
+
+.language-selector ul li a {
+    padding: 5px;
+    width: 100%;
+}
+
+.language-selector ul li img {
+    text-align: center;
+    width: 40px;
+    height: 30px;
+}
+
+.language-selector .ES {
+
+}
+
+.language-selector .EN {
+
+}
+
+/* Transition from 1020 to 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1045px) {
+    .language-selector {
+        right: 0;
+        border-radius: 0 0 0 5px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .language-selector {
+        right: 0;
+        border-radius: 0 0 0 5px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .language-selector {
+        right: 0;
+        border-radius: 0 0 0 5px;
+        width: 50px;
+    }
+    .language-selector .language-title {
+        display: none;
+    }
+    .language-selector .language-title-first-letter {
+        display: block;
+    }
+    .language-selector ul li {
+        display: block;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .language-selector {
+        right: 0;
+        border-radius: 0 0 0 5px;
+        width: 30px;
+    }
+    .language-selector .language-title {
+        display: none;
+    }
+    .language-selector .language-title-first-letter {
+        display: block;
+    }
+    .language-selector ul li {
+        display: block;
+    }
+    .language-selector ul li img {
+        text-align: center;
+        width: 20px;
+        height: 15px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 379px) {
+    .language-selector {
+        top: 102px;
+    }
+}
