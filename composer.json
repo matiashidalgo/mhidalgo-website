@@ -1,0 +1,22 @@
+{
+    "name": "mhidalgo/mhidalgo-web",
+    "description": "Mhidalgo Magento Website",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "redbox/magneto-debug": "*",
+        "connect20/aschroder_smtppro": "2.0.5",
+        "aoepeople/aoe_profiler": "v0.3.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        },
+    ],
+    "extra": {
+        "magento-root-dir": "./htdocs"
+    }
+}
+

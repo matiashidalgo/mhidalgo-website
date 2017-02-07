@@ -21,3 +21,13 @@ Thumbs.db
 #SASS
 .sass-cache/
 --compass
+
+# Composer
+htdocs/
+vendor/
+.idea
+.DS_store
+composer.phar
+n98-magerun.phar
+*.sublime-project
+*.sublime-workspace
