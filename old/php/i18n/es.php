@@ -16,7 +16,7 @@ $language = array(
     'CV' => 'CV',
     'Documents' => 'Documentos',
     'Portfolio' => 'Portafolio',
-    'Contact' => 'Contactos',
+    'Contact' => 'Contacto',
     'Information' => 'Información',
     'Names' => 'Nombres',
     'LastName' => 'Apellido',
@@ -66,5 +66,5 @@ $language = array(
 
     // Messages
     'success_message_for_contact_form' => 'Muchas gracias! Tu mensaje fue enviado, a la brevedad me comunicare con usted.',
-    'error_message_for_contact_form' => 'Los datos suministrados no pasaron por las validaciones exigidas, por favor compruebe que completo Nombre, E-mail y Mensaje, <br/> Si es asi aseguresé de que el e-mail este correctamente ingresado incluyendo el dominio (por ejemplo "hotmail.com") y el simbolo @,<br/> Ademas si ingreso su website asegurese de haberlo cargado con el formato de URL valido (por ejemplo "http://www.mhidalgo.xyz"). <br/> Vuelva a Intentar'
+    'error_message_for_contact_form' => 'Los datos suministrados no pasaron por las validaciones exigidas, por favor compruebe que completo Nombre, E-mail y Mensaje, <br/> Si es asi aseguresé de que el e-mail este correctamente ingresado incluyendo el dominio (por ejemplo "hotmail.com") y el simbolo @,<br/> Ademas si ingreso su website asegurese de haberlo cargado con el formato de URL valido (por ejemplo "http://www.mhidalgo.tk"). <br/> Vuelva a Intentar'
 );

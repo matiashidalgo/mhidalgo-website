@@ -115,9 +115,9 @@ $profile = array(
                 'to'    => array(
                     'type' => 'now',
                 ),
-                'title'         => 'Magento Backend Developer',
+                'title'         => 'Magento Tech Lead & Backend Developer',
                 'company'       => 'Redbox Digital Ltd.',
-                'description'   => 'Desarrollo e-commerces sobre la plataforma Magento, principalmente para proyectos de Medio oriente y Europa, todos ellos con arquitecturas Omni channel lo cual significo un desafio profesional.'
+                'description'   => 'Desarrollo e-commerces sobre la plataforma Magento, principalmente para proyectos de Medio oriente y Europa, la mayoria con arquitecturas Omni channel lo cual significo un desafio profesional.'
             ),
             'en' => array(
                 'from'  => array(
@@ -128,9 +128,9 @@ $profile = array(
                 'to'    => array(
                     'type' => 'now',
                 ),
-                'title'         => 'Magento Backend Developer',
+                'title'         => 'Magento Tech Lead & Backend Developer',
                 'company'       => 'Redbox Digital Ltd.',
-                'description'   => 'I Develop e-commerce based on Magento Platform, mainly for projects from middle-east and Europe, all of them with Omni-channel Architectures, which means a big professional challenge for me.'
+                'description'   => 'I Develop e-commerce based on Magento Platform, mainly for projects from middle-east and Europe, most of them with Omni-channel Architectures, which means a big professional challenge for me.'
             ),
         ),
         array(
@@ -418,8 +418,9 @@ $profile = array(
     ),
     'curriculum'        => array(
         array(
+            'title' => 'Matias Hidalgo - CV',
             'format'=> 'PDF',
-            'file'  => 'CV-mhidalgo.pdf',
+            'file'  => 'docs/CV-mhidalgo.pdf',
             'last_updated' => '03/11/2015',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Español en su version PDF.',
@@ -427,8 +428,9 @@ $profile = array(
             )
         ),
         array(
+            'title' => 'Matias Hidalgo - CV',
             'format'=> 'DOCX',
-            'file'  => 'CV-mhidalgo.docx',
+            'file'  => 'docs/CV-mhidalgo.docx',
             'last_updated' => '03/11/2015',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Español en su version DOCX.',
@@ -436,8 +438,9 @@ $profile = array(
             )
         ),
         array(
+            'title' => 'Matias Hidalgo - CV',
             'format'=> 'PDF',
-            'file'  => 'CV-mhidalgo-EN.pdf',
+            'file'  => 'docs/CV-mhidalgo-EN.pdf',
             'last_updated' => '03/11/2015',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version PDF.',
@@ -445,8 +448,9 @@ $profile = array(
             )
         ),
         array(
+            'title' => 'Matias Hidalgo - CV',
             'format'=> 'DOCX',
-            'file'  => 'CV-mhidalgo-EN.docx',
+            'file'  => 'docs/CV-mhidalgo-EN.docx',
             'last_updated' => '03/11/2015',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version DOCX.',
@@ -454,12 +458,93 @@ $profile = array(
             )
         ),
         array(
+            'title' => 'Matias Hidalgo - Certifications Directory',
             'format'=> 'URL',
             'file'  => 'http://www.magentocommerce.com/certification/directory/dev/1548112/',
             'last_updated' => null,
             'info' => array(
                 'es' => 'Este link le permitira visualizar mis certificaciones en Magento.',
                 'en' => 'This link allow you to see my Magento Certifications.',
+            )
+        ),
+        array(
+            'title' => 'Summa Solutions - Reference letter',
+            'format'=> 'PDF',
+            'file'  => 'docs/ReferenceLetterSumma.pdf',
+            'last_updated' => '01/03/2016',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi carta de referencia escrita por el Managing Partner de Summa Solutions.',
+                'en' => 'This link allow you to download my reference letter from the Managing Partner of Summa Solutions.',
+            )
+        ),
+        array(
+            'title' => 'Magento Certified Developer Plus - Certificate',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/MCDP_Certificate.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado en Magento Developer Plus.',
+                'en' => 'This link allow you to download my certificate of Magento Developer Plus.',
+            )
+        ),
+        array(
+            'title' => 'Magento Certified Developer Plus - Results',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/MCDP_Results.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi resultado en el examen de Magento Developer Plus.',
+                'en' => 'This link allow you to download my results of exam for Magento Developer Plus.',
+            )
+        ),
+        array(
+            'title' => 'Magento Certified Solution Specialist - Certificate',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/MCSS_Certificate.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado en Magento Solution Specialist.',
+                'en' => 'This link allow you to download my certificate of Magento Solution Specialist.',
+            )
+        ),
+        array(
+            'title' => 'Fundamentals of Magento 2 Development - Course Completion',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/coursecompletionFundamentalsOfMagento2Development.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado por completar el curso Fundamentals of Magento 2 Development.',
+                'en' => 'This link allow you to download my certificate by course completion of Fundamentals of Magento 2 Development.',
+            )
+        ),
+        array(
+            'title' => 'Managing your Magento 2 Store - Course Completion',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/coursecompletionManagingYourMagento2Store.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado por completar el curso Managing your Magento 2 Store.',
+                'en' => 'This link allow you to download my certificate by course completion of Managing your Magento 2 Store.',
+            )
+        ),
+        array(
+            'title' => 'Core Principles for Theming in Magento 2 - Course Completion',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/coursecompletionCorePrinciplesThemingMagento2.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado por completar el curso Core Principles for Theming in Magento 2.',
+                'en' => 'This link allow you to download my certificate by course completion of Core Principles for Theming in Magento 2.',
+            )
+        ),
+        array(
+            'title' => 'Responsive Web Design in Magento 2 - Course Completion',
+            'format'=> 'PDF',
+            'file'  => 'docs/magento/coursecompletionResponsiveWebDesignMagento2.pdf',
+            'last_updated' => '13/02/2017',
+            'info' => array(
+                'es' => 'Este link le permitira descargar mi certificado por completar el curso Responsive Web Design in Magento 2.',
+                'en' => 'This link allow you to download my certificate by course completion of Responsive Web Design in Magento 2.',
             )
         ),
     ),

@@ -7,7 +7,7 @@ User-agent: *
 ## Set a custom crawl rate if you're experiencing traffic problems with your server.
 Crawl-delay: 30
 
-Sitemap: http://www.mhidalgo.xyz/sitemap.xml
+Sitemap: http://www.mhidalgo.tk/sitemap.xml
 
 ## DEVELOPMENT RELATED SETTINGS
 

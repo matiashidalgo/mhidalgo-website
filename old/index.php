@@ -436,7 +436,7 @@ require_once('php/config.php');
 
                                     <div class="text-field-right">
 
-                                        <div class="title"><?php echo $profile['full_name']; ?> - <?php echo $language['CV']; ?> - <?php echo $curriculum['format']; ?></div>
+                                        <div class="title"><?php echo $curriculum['title']; ?> - <?php echo $curriculum['format']; ?></div>
 
                                         <div class="meta without-icon"><span class="date"><?php if (!is_null($curriculum['last_updated'])): ?><?php echo $language['UpdatedTo']; ?> <?php echo $curriculum['last_updated']; ?> <?php else: ?> <?php echo $language['UpToDate']; ?> <?php endif; ?></span></div>
 
@@ -647,16 +647,16 @@ require_once('php/config.php');
 
                 <ul class = "pos-button">
 
-                    <li class = "first"><a href = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mhidalgo.xyz"  class = "facebook" title="Facebook"></a></li>
+                    <li class = "first"><a href = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mhidalgo.tk"  class = "facebook" title="Facebook"></a></li>
 
 
-                    <li><a href = "https://plus.google.com/share?url=http%3A%2F%2Fwww.mhidalgo.xyz" class = "google" title="Google+"></a></li>
+                    <li><a href = "https://plus.google.com/share?url=http%3A%2F%2Fwww.mhidalgo.tk" class = "google" title="Google+"></a></li>
 
-                    <li><a href = "https://twitter.com/share?url=http%3A%2F%2Fwww.mhidalgo.xyz" class = "twitter" title="Twitter"></a></li>
+                    <li><a href = "https://twitter.com/share?url=http%3A%2F%2Fwww.mhidalgo.tk" class = "twitter" title="Twitter"></a></li>
 
-                    <li><a href = "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.mhidalgo.xyz&title=MatiasHidalgovCard&summary=MatiasHidalgovCard&source=www.mhidalgo.xyz" class = "linkedin" title="Linkedin"></a></li>
+                    <li><a href = "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.mhidalgo.tk&title=MatiasHidalgovCard&summary=MatiasHidalgovCard&source=www.mhidalgo.tk" class = "linkedin" title="Linkedin"></a></li>
 
-                    <li class = "last"><a href = "http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.mhidalgo.xyz&amp;media=http%3A%2F%2Fwww.mhidalgo.xyz%2Fimages%2Fcontent%2Ffoto.jpg&amp;description=MatiasHidalgovCard" class = "pinterest" title="Pinterest"></a></li>
+                    <li class = "last"><a href = "http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.mhidalgo.tk&amp;media=http%3A%2F%2Fwww.mhidalgo.tk%2Fimages%2Fcontent%2Ffoto.jpg&amp;description=MatiasHidalgovCard" class = "pinterest" title="Pinterest"></a></li>
 
 
                 </ul>
