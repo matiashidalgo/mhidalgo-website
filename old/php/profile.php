@@ -12,8 +12,8 @@ $profile = array(
     'full_name'         => 'Matias Hidalgo',
     'photo'             => 'images/content/mhidalgo.jpg',
     'job'               => array(
-        'es' => 'Desarrollador PHP y Magento CD+',
-        'en' => 'PHP Developer & Magento CD+',
+        'es' => 'PHP Developer & Magento MCD+/MSS',
+        'en' => 'PHP Developer & Magento MCD+/MSS',
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
@@ -27,7 +27,7 @@ $profile = array(
         'en' => 'Argentinean',
     ),
     'address'           => array(
-        'country'   => 'Argentina',
+        'country'   => 'Mauritius',
         'state'     => 'Buenos Aires',
         'city'      => 'Benito Juarez',
         'street'    => 'Pellegrini 382',
@@ -36,14 +36,14 @@ $profile = array(
     ),
     'mobile'            => '+954 249-457-1044',
     'phone'             => null,
-    'email'             => 'me@mhidalgo.xyz',
-    'website'           => 'www.mhidalgo.xyz',
+    'email'             => 'me@mhidalgo.tk',
+    'website'           => 'www.mhidalgo.tk',
     'year_experience'   => $yearExperience,
-    'level_experience'  => 'SSr.',
+    'level_experience'  => 'Sr.',
     'languages'         => 'ES, EN',
     'self_description'  => array(
-        'es' => 'Soy un Semi Sr. PHP Developer con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. En los últimos dos años tome una orientación al desarrollo de e-commerce pero mientras tanto utilizo mi tiempo libre para continuar expandiendo mis conocimientos en frontend development y los nuevos frameworks JS.',
-        'en' => 'Semi Sr. PHP Developer with a solid technical background and working experience in analysis, design and development of web based applications. On last two years he had taken a backend e-commerce developer orientation but meanwhile took free time to keep up his knowledge on frontend develop and new JavaScript frameworks.',
+        'es' => 'Soy un Sr. PHP Developer con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. En los últimos cuatro años tome una orientación al desarrollo de e-commerce pero mientras tanto utilizo mi tiempo libre para continuar expandiendo mis conocimientos en frontend development y los nuevos frameworks JS.',
+        'en' => 'Sr. PHP Developer with a solid technical background and working experience in analysis, design and development of web based applications. On last four years I\'ve taken a backend e-commerce developer orientation but meanwhile took free time to keep up my knowledge on frontend development and new JavaScript frameworks.',
     ),
     'skills'            => array(
         array(
@@ -64,12 +64,12 @@ $profile = array(
             'es' => array(
                 'label'         => 'Magento',
                 'percentage'    => '95',
-                'description'   => 'Desde que trabajo en Summa Solutions utilizo esta plataforma de e-commerce profesionalizandome dia a dia, recientemente en Agosto de 2015 consegui certificarme como Magento Developer Plus con un score excelente.'
+                'description'   => 'Desde que trabajé en Summa Solutions utilizo esta plataforma de e-commerce profesionalizandome dia a dia, actualmente en Redbox Digital me encuentro trabajando en Magento 2 con proyectos que tienen arquitecturas Omnichannel, en Agosto de 2015 consegui certificarme como Magento Developer Plus con un score excelente y recientemente me certifique en Magento Solution Specialist.'
             ),
             'en' => array(
                 'label'         => 'Magento',
                 'percentage'    => '95',
-                'description'   => 'At Summa Solutions I develop e-commerce using Magento Platform, so I have daily new experiences with it. Recently, on August of 2015 I get my certificate like Magento Developer Plus with a perfect score.'
+                'description'   => 'At Summa Solutions I started to develop e-commerce using Magento Platform, and now at Redbox Digital I\'ve started to work in Magento 2 dealing with big Omni-Channel architecture projects, so I have daily new challenges. Recently, I\'ve pass the Magento Solution Specialist and I already are Magento Certified Developer Plus with a perfect score since August of 2015.'
             ),
         ),
         array(
@@ -109,15 +109,45 @@ $profile = array(
             'es' => array(
                 'from'  => array(
                     'type' => 'date',
-                    'month' => 'Oct',
-                    'year'  => '2013',
+                    'month' => 'April',
+                    'year'  => '2016',
                 ),
                 'to'    => array(
                     'type' => 'now',
                 ),
+                'title'         => 'Magento Backend Developer',
+                'company'       => 'Redbox Digital Ltd.',
+                'description'   => 'Desarrollo e-commerces sobre la plataforma Magento, principalmente para proyectos de Medio oriente y Europa, todos ellos con arquitecturas Omni channel lo cual significo un desafio profesional.'
+            ),
+            'en' => array(
+                'from'  => array(
+                    'type' => 'date',
+                    'month' => 'April',
+                    'year'  => '2016',
+                ),
+                'to'    => array(
+                    'type' => 'now',
+                ),
+                'title'         => 'Magento Backend Developer',
+                'company'       => 'Redbox Digital Ltd.',
+                'description'   => 'I Develop e-commerce based on Magento Platform, mainly for projects from middle-east and Europe, all of them with Omni-channel Architectures, which means a big professional challenge for me.'
+            ),
+        ),
+        array(
+            'es' => array(
+                'from'  => array(
+                    'type' => 'date',
+                    'month' => 'Oct',
+                    'year'  => '2013',
+                ),
+                'to'    => array(
+                    'type' => 'date',
+                    'month' => 'March',
+                    'year'  => '2016',
+                ),
                 'title'         => 'PHP Developer',
                 'company'       => 'Summa Solutions',
-                'description'   => 'Desarrollo aplicaciones para comercios electronicos, tambien llamados e-commerce, utilizando la plataforma Magento. Tambien trabajé en proyectos con Wordpress y Yii. Utilizamos la metodologia Scrum.'
+                'description'   => 'Desarrollé aplicaciones para comercios electronicos, tambien llamados e-commerce, utilizando la plataforma Magento. Tambien trabajé en proyectos con Wordpress y Yii. Utilizamos la metodologia Scrum.'
             ),
             'en' => array(
                 'from'  => array(
@@ -126,11 +156,13 @@ $profile = array(
                     'year'  => '2013',
                 ),
                 'to'    => array(
-                    'type' => 'now',
+                    'type' => 'date',
+                    'month' => 'March',
+                    'year'  => '2016',
                 ),
                 'title'         => 'PHP Developer',
                 'company'       => 'Summa Solutions',
-                'description'   => 'Develop e-commerce based on Magento Platform. Also I\'ve been working with Wordpress and Yii for some proyects. We use Scrum.'
+                'description'   => 'I Developed e-commerce based on Magento Platform. Also I\'ve been working with Wordpress and Yii for some projects. We use Scrum.'
             ),
         ),
         array(
@@ -333,7 +365,7 @@ $profile = array(
                 ),
                 'title'         => 'Magento Certified Developer Plus',
                 'place'         => 'Magento Inc.',
-                'description'   => 'Me prepare durante 2015 logrando obtener mi certificación en Magento Developer Plus en Agosto del mismo año.'
+                'description'   => 'Consegui mi certificación en Magento Developer Plus en Agosto del 2015.'
             ),
             'en' => array(
                 'from'  => array(
@@ -348,7 +380,39 @@ $profile = array(
                 ),
                 'title'         => 'Magento Certified Developer Plus',
                 'place'         => 'Magento Inc.',
-                'description'   => 'I studied in order to get my degree on Magento Certified Developer Plus, and I got it at August of that year.'
+                'description'   => 'I got my certification on Magento Developer Plus in August of 2016.'
+            ),
+        ),
+        array(
+            'es' => array(
+                'from'  => array(
+                    'type' => 'date',
+                    'month' => 'Sep',
+                    'year'  => '2016',
+                ),
+                'to'    => array(
+                    'type' => 'date',
+                    'month' => 'Dic',
+                    'year'  => '2016',
+                ),
+                'title'         => 'Magento Certified Solution Specialist',
+                'place'         => 'Magento Inc.',
+                'description'   => 'Consegui mi certificación en Magento Solution Specialist en Diciembre del 2016.'
+            ),
+            'en' => array(
+                'from'  => array(
+                    'type' => 'date',
+                    'month' => 'Sep',
+                    'year'  => '2016',
+                ),
+                'to'    => array(
+                    'type' => 'date',
+                    'month' => 'Dic',
+                    'year'  => '2016',
+                ),
+                'title'         => 'Magento Certified Solution Specialist',
+                'place'         => 'Magento Inc.',
+                'description'   => 'I got my certification on Magento Solution Specialist in December of 2016.'
             ),
         ),
     ),
@@ -394,8 +458,8 @@ $profile = array(
             'file'  => 'http://www.magentocommerce.com/certification/directory/dev/1548112/',
             'last_updated' => null,
             'info' => array(
-                'es' => 'Este link le permitira visualizar mi certificacion en Magento.',
-                'en' => 'This link allow you to see my Magento Certification.',
+                'es' => 'Este link le permitira visualizar mis certificaciones en Magento.',
+                'en' => 'This link allow you to see my Magento Certifications.',
             )
         ),
     ),
@@ -548,7 +612,7 @@ $profile = array(
             'es' => array(
                 'date' => array(
                     'from'  => '2013',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Grand Marché',
                 'url'   => null,
@@ -559,20 +623,20 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2013',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Grand Marché',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
                 'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, jQuery, Prototype, Magento CE, MySQL, SEO, Social Networks, Facebook API, Google + API, Twitter OAuth, TodoPago API, MercadoPago API, SPS Decidir API, Andreani WS, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extensión to integrate Andreani carrier.'."\n".' Develop Magento extensión to login using social networks Google +, Facebook and Twitter.'."\n".' Integrate uDropship Vendors module and customize them.'."\n".' Long-term technical support.'."\n".' Security improvements and latest Magento Patches applied.'."\n".' Integrate MercadoPago Marketplace Payment Method.'."\n".' Integrate MercadoPago Express Payment Method.'."\n".' Integrate TodoPago Payment Method.'."\n".' Integrate SPS Decidir Payment Method.'."\n".' Develop new reports based-on client requirements.'."\n".' Develop multi-vendor sells functionality.'."\n".' Estimate SEO integrations and social-oriented settings to get more visitors.'."\n".' Develop new design and theme adjustments as a Frontend developer.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Andreani carrier.'."\n".' Develop Magento extension to login using social networks Google +, Facebook and Twitter.'."\n".' Integrate uDropship Vendors module and customize them.'."\n".' Long-term technical support.'."\n".' Security improvements and latest Magento Patches applied.'."\n".' Integrate MercadoPago Marketplace Payment Method.'."\n".' Integrate MercadoPago Express Payment Method.'."\n".' Integrate TodoPago Payment Method.'."\n".' Integrate SPS Decidir Payment Method.'."\n".' Develop new reports based-on client requirements.'."\n".' Develop multi-vendor sells functionality.'."\n".' Estimate SEO integrations and social-oriented settings to get more visitors.'."\n".' Develop new design and theme adjustments as a Frontend developer.',
             ),
         ),
         array(
             'es' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'QBC - Que Buena Compra',
                 'url'   => null,
@@ -583,7 +647,7 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'QBC - Que Buena Compra',
                 'url'   => null,
@@ -716,7 +780,7 @@ $profile = array(
             'es' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Makro Virtual',
                 'url'   => null,
@@ -727,7 +791,7 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Makro Virtual',
                 'url'   => null,
@@ -764,7 +828,7 @@ $profile = array(
             'es' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'El Burgues',
                 'url'   => null,
@@ -775,20 +839,20 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2014',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'El Burgues',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
                 'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento CE, MySQL, Andreani WS, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extensión to integrate Andreani carrier.'."\n".' Integrate SPS Decidir Payment Method.'."\n".' Security improvements and latest Magento Patches applied.'."\n".' Long-term technical support.'."\n".' Integrate Magento module to Store pickup.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Andreani carrier.'."\n".' Integrate SPS Decidir Payment Method.'."\n".' Security improvements and latest Magento Patches applied.'."\n".' Long-term technical support.'."\n".' Integrate Magento module to Store pickup.',
             ),
         ),
         array(
             'es' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Stylewatch',
                 'url'   => null,
@@ -799,7 +863,7 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Stylewatch',
                 'url'   => null,
@@ -812,7 +876,7 @@ $profile = array(
             'es' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'US Polo',
                 'url'   => null,
@@ -823,7 +887,7 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'US Polo',
                 'url'   => null,
@@ -836,7 +900,7 @@ $profile = array(
             'es' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Meet Magento Argentina',
                 'url'   => null,
@@ -847,13 +911,133 @@ $profile = array(
             'en' => array(
                 'date' => array(
                     'from'  => '2015',
-                    'to'    => date('Y'),
+                    'to'    => '2016',
                 ),
                 'title' => 'Meet Magento Argentina',
                 'url'   => null,
                 'tasks' => 'PHP and Frontend Developer',
                 'technologies' => 'OOP, PHP, HTML, CSS3, Javascript, jQuery, Wordpress 4, MySQL, Scrum.',
                 'description' => 'Customized wordpress templates based-on client requirements.'."\n".' Data entry and Wordpress teaching for co-workers.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Level Shoes',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Grunt, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Level Shoes',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Grunt, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Wojooh',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Wojooh',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Sephora Middle East',
+                'url'   => null,
+                'tasks' => 'Tech Lead, PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion Omni-channel Custom, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2017',
+                ),
+                'title' => 'Sephora Middle East',
+                'url'   => null,
+                'tasks' => 'Tech Lead, PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom Omni-channel Integration, Fetchr Integration, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2017',
+                    'to'    => date('Y'),
+                ),
+                'title' => 'Ounass UAE/KSA/QAT',
+                'url'   => null,
+                'tasks' => 'PHP 7 and Magento 2 Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2017',
+                    'to'    => date('Y'),
+                ),
+                'title' => 'Ounass UAE/KSA/QAT',
+                'url'   => null,
+                'tasks' => 'PHP 7 and Magento 2 Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2017',
+                    'to'    => date('Y'),
+                ),
+                'title' => 'Mamas And Papas UAE/KSA',
+                'url'   => null,
+                'tasks' => 'PHP 7 and Magento 2 Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2017',
+                    'to'    => date('Y'),
+                ),
+                'title' => 'Mamas And Papas UAE/KSA',
+                'url'   => null,
+                'tasks' => 'PHP 7 and Magento 2 Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.',
             ),
         ),
     )

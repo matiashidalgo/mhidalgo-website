@@ -57,7 +57,7 @@ $language = array(
     'FormValidationNameRequiredMessage' => 'You must fill your name',
     'FormValidationEmailRequiredMessage' => 'You must fill your e-mail',
     'FormValidationMessageRequiredMessage' => 'You must fill the message',
-    'FormValidationWebsiteUrlMessage' => 'Website must be an URL with full format, ex "http://www.mhidalgo.xyz"',
+    'FormValidationWebsiteUrlMessage' => 'Website must be an URL with full format, ex "http://www.mhidalgo.tk"',
 
     // Connectors
     'From' => 'From',

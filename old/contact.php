@@ -9,14 +9,14 @@ require_once('php/functions.php');
     ) {
 
         $website = ($_POST["website"] == "WebSite" && !filter_var(sanitize($_POST["website"],'url'), FILTER_VALIDATE_URL)) ? false : sanitize($_POST["website"],'url');
-        $toEmail = 'me@mhidalgo.xyz';
+        $toEmail = 'chuj4pr0@hotmail.com';
         $message = '';
         $subject = '';
         if($website) {
-            $subject = 'Contacto en mhidalgo.xyz de '.sanitize($_POST["name"],'string').' del website '.$website;
+            $subject = 'Contacto en mhidalgo.tk de '.sanitize($_POST["name"],'string').' del website '.$website;
             $message = sanitize($_POST["comment"],'html') . " Enviado por ".sanitize($_POST["name"],'string')." del sitio web ".$website;
         } else {
-            $subject = 'Contacto en mhidalgo.xyz de '.sanitize($_POST["name"],'string');
+            $subject = 'Contacto en mhidalgo.tk de '.sanitize($_POST["name"],'string');
             $message = sanitize($_POST["comment"],'html') . " Enviado por ".sanitize($_POST["name"],'string');
         }
 
@@ -28,14 +28,12 @@ require_once('php/functions.php');
             'from_name'     => sanitize($_POST["name"],'string'),
             'to_list'       =>
                 array(
-                    array(
-                        'email' => $toEmail,
-                        'name' => 'Matias Hidalgo',
-                        'type' => 'to'
-                    )
+                    'email' => $toEmail,
+                    'name' => 'Matias Hidalgo',
+                    'type' => 'to'
                 ),
             'headers'       =>
-                array('Reply-To' => 'me@mhidalgo.xyz'),
+                array('Reply-To' => 'chuj4pr0@hotmail.com'),
         );
 
         $results = sendEmail($mailData);

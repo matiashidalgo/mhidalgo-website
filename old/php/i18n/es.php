@@ -57,7 +57,7 @@ $language = array(
     'FormValidationNameRequiredMessage' => 'Es obligatorio introducir un nombre',
     'FormValidationEmailRequiredMessage' => 'Es obligatorio introducir un e-mail',
     'FormValidationMessageRequiredMessage' => 'Es obligatorio introducir un mensaje',
-    'FormValidationWebsiteUrlMessage' => 'El campo Website debe ser cargado con una URL a un sitio con el formato correcto por ejemplo "http://www.mhidalgo.xyz"',
+    'FormValidationWebsiteUrlMessage' => 'El campo Website debe ser cargado con una URL a un sitio con el formato correcto por ejemplo "http://www.mhidalgo.tk"',
 
     // Connectors
     'From' => 'Desde',

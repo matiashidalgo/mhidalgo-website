@@ -484,6 +484,7 @@ require_once('php/config.php');
 
             <h2><?php echo $language['Portfolio']; ?></h2>
 
+                    <div id="tag-chooser" class="block tag-chooser"></div>
 
                 <div id = "employment" class = "block">
 
@@ -491,7 +492,7 @@ require_once('php/config.php');
                     <div class = "block-content">
 
                         <?php foreach ($profile['portfolio'] as $portfolio): ?>
-                            <div class="text-field date">
+                            <div class="text-field date <?php echo implode(' ',array_keys(parseTags($portfolio[$lang]['technologies']))) ?>">
 
                                 <div class="text-field-left"><?php echo $portfolio[$lang]['date']['from']; ?><?php if (!is_null($portfolio[$lang]['date']['to']) && ((int)$portfolio[$lang]['date']['from'] != (int)$portfolio[$lang]['date']['to'])): ?><br/><?php echo $language['To']; ?><br/><?php echo $portfolio[$lang]['date']['to']?><?php endif; ?></div>
 
@@ -738,7 +739,8 @@ require_once('php/config.php');
             'address': '<?php echo $profile['address']['street']; ?> <?php echo $profile['address']['city']; ?> <?php echo $profile['address']['country']; ?>',
             'contact': {
                 'urlPost'   : '<?php echo $urlsPrefix; ?>contact.php'
-            }
+            },
+            'portfolioTags': <?php echo json_encode(getAllTags($profile,$lang)); ?>
         };
 
 
@@ -772,8 +774,15 @@ require_once('php/config.php');
             return returned;
         }
 
+        function appendTagsChooser() {
+            $.each(GLOBAL_VARS.portfolioTags,function(index,tag) {
+                $('#tag-chooser').append('<div class="tag ' + index + '">' + tag + '</div>')
+            });
+        }
+
         $(document).ready(function(){
             $('input, textarea').placeholder();
+            //appendTagsChooser();
         });
     </script>
 
@@ -785,7 +794,7 @@ require_once('php/config.php');
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-42621446-1', 'mhidalgo.xyz');
+	  ga('create', 'UA-42621446-1', 'mhidalgo.tk');
 	  ga('send', 'pageview');
 
 	</script>

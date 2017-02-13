@@ -7,7 +7,7 @@
  *              Time:        14:58
  * @copyright   Copyright (c) 2015 Summa Solutions (http://www.summasolutions.net)
  */
-require_once('mail/Mandrill.php');
+//require_once('mail/Mandrill.php');
 
 /**
  * Function to get Years passed from a date = array( 'day' => x , 'month' => x , 'year' => x )
@@ -38,107 +38,8 @@ function calculateYears($date)
  */
 function sendEmail($mailData)
 {
-    try {
-        $mandrill = new Mandrill($mailData['mandrill_key']);
-        $message = array(
-            'html' => $mailData['html_content'],
-            /*'text' => $mailData['text_content'],*/
-            'subject' => $mailData['subject'],
-            'from_email' => $mailData['from_email'],
-            'from_name' => $mailData['from_name'],
-            'to' => $mailData['to_list']
-            /*array(
-                array(
-                    'email' => 'recipient.email@example.com',
-                    'name' => 'Recipient Name',
-                    'type' => 'to'
-                )
-            )*/,
-            'headers' => $mailData['headers']
-            /*array('Reply-To' => 'message.reply@example.com')*/,
-            'important' => false,
-            'track_opens' => null,
-            'track_clicks' => null,
-            'auto_text' => null,
-            'auto_html' => null,
-            'inline_css' => null,
-            'url_strip_qs' => null,
-            'preserve_recipients' => null,
-            'view_content_link' => null,
-            'bcc_address' => null/*'message.bcc_address@example.com'*/,
-            'tracking_domain' => null,
-            'signing_domain' => null,
-            'return_path_domain' => null,
-            'merge' => false,
-            'merge_language' => null/*'mailchimp'*/,
-            'global_merge_vars' => array(
-                /*array(
-                    'name' => 'merge1',
-                    'content' => 'merge1 content'
-                )*/
-            ),
-            'merge_vars' => array(
-                /*array(
-                    'rcpt' => 'recipient.email@example.com',
-                    'vars' => array(
-                        array(
-                            'name' => 'merge2',
-                            'content' => 'merge2 content'
-                        )
-                    )
-                )*/
-            ),
-            'tags' => array()/*array('password-resets')*/,
-            'subaccount' => null/*'customer-123'*/,
-            'google_analytics_domains' => array('mhidalgo.xyz'),
-            'google_analytics_campaign' => null/*'message.from_email@example.com'*/,
-            'metadata' => array('website' => 'www.mhidalgo.xyz'),
-            /*'recipient_metadata' => array(
-                array(
-                    'rcpt' => 'recipient.email@example.com',
-                    'values' => array('user_id' => 123456)
-                )
-            ),*/
-            /*'attachments' => array(
-                array(
-                    'type' => 'text/plain',
-                    'name' => 'myfile.txt',
-                    'content' => 'ZXhhbXBsZSBmaWxl'
-                )
-            ),*/
-            /*'images' => array(
-                array(
-                    'type' => 'image/png',
-                    'name' => 'IMAGECID',
-                    'content' => 'ZXhhbXBsZSBmaWxl'
-                )
-            )*/
-        );
-        $async = false;
-        $ip_pool = null/*'Main Pool'*/;
-        $send_at = null/*'example send_at'*/;
-        $result = $mandrill->messages->send($message, $async, $ip_pool, $send_at);
-        /*
-        Array
-        (
-            [0] => Array
-                (
-                    [email] => recipient.email@example.com
-                    [status] => sent
-                    [reject_reason] => hard-bounce
-                    [_id] => abc123abc123abc123abc123abc123
-                )
-
-        )
-        */
-        return $result;
-    } catch(Mandrill_Error $e) {
-        // Mandrill errors are thrown as exceptions
-        //echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
-        // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
-        //throw $e;
-        return $e;
-    }
+    mail($mailData['to_list']['email'],$mailData['subject'],$mailData['html_content'],implode(';',$mailData['headers']));
+    return array(array('status' => 'sent'));
 }
 
 /**
@@ -176,4 +77,23 @@ function sanitize($data,$type = 'string')
             break;
     }
     return trim($data);
+}
+
+function parseTags($tags)
+{
+    $oldTags = explode(',',$tags);
+    $tags = array();
+    foreach ($oldTags as $index => $tag) {
+        $tags[strtolower(str_replace('.','',str_replace(' ','-',trim($tag))))] = str_replace('.','',trim($tag));
+    }
+    return $tags;
+}
+
+function getAllTags($profile,$lang)
+{
+    $tags = array();
+    foreach ($profile['portfolio'] as $portfolio) {
+        $tags = array_unique(array_merge($tags,parseTags($portfolio[$lang]['technologies'])));
+    }
+    return $tags;
 }
