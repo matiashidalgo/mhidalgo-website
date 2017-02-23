@@ -31,8 +31,8 @@ $profile = array(
         'state'     => 'Buenos Aires',
         'city'      => 'Benito Juarez',
         'street'    => 'Pellegrini 382',
-        'lat'       => '',
-        'long'      => ''
+        'lat'       => '-20.275686',
+        'long'      => '57.3747906'
     ),
     'mobile'            => '+954 249-457-1044',
     'phone'             => null,
@@ -303,7 +303,7 @@ $profile = array(
                     'month' => 'Dic',
                     'year'  => '2013',
                 ),
-                'title'         => 'Ténico Universitario en Programación y Administración de Redes',
+                'title'         => 'Técnico Universitario en Programación y Administración de Redes',
                 'place'         => 'UNCPBA',
                 'description'   => 'En 2012 concluí con todas las cursadas de la tecnicatura universitaria y el 10 de Diciembre de 2013 rendi la Tesis obteniendo un 10 y concluyendo la carrera.'
             ),
@@ -421,7 +421,7 @@ $profile = array(
             'title' => 'Matias Hidalgo - CV',
             'format'=> 'PDF',
             'file'  => 'docs/CV-mhidalgo.pdf',
-            'last_updated' => '03/11/2015',
+            'last_updated' => '23/02/2017',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Español en su version PDF.',
                 'en' => 'This link allow you to download my CV on PDF and spanish language.',
@@ -431,7 +431,7 @@ $profile = array(
             'title' => 'Matias Hidalgo - CV',
             'format'=> 'DOCX',
             'file'  => 'docs/CV-mhidalgo.docx',
-            'last_updated' => '03/11/2015',
+            'last_updated' => '23/02/2017',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Español en su version DOCX.',
                 'en' => 'This link allow you to download my CV on DOCX and spanish language.',
@@ -441,7 +441,7 @@ $profile = array(
             'title' => 'Matias Hidalgo - CV',
             'format'=> 'PDF',
             'file'  => 'docs/CV-mhidalgo-EN.pdf',
-            'last_updated' => '03/11/2015',
+            'last_updated' => '23/02/2017',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version PDF.',
                 'en' => 'This link allow you to download my CV on PDF and english language.',
@@ -451,7 +451,7 @@ $profile = array(
             'title' => 'Matias Hidalgo - CV',
             'format'=> 'DOCX',
             'file'  => 'docs/CV-mhidalgo-EN.docx',
-            'last_updated' => '03/11/2015',
+            'last_updated' => '23/02/2017',
             'info' => array(
                 'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version DOCX.',
                 'en' => 'This link allow you to download my CV on DOCX and english language.',
@@ -1014,8 +1014,8 @@ $profile = array(
                 'title' => 'Level Shoes',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Grunt, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Grunt, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.'."\n".' Hacia los Code Review de todos los Pull Request y estaba a cargo del proceso de Deploy'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
             ),
             'en' => array(
                 'date' => array(
@@ -1025,8 +1025,8 @@ $profile = array(
                 'title' => 'Level Shoes',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Grunt, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Grunt, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.'."\n".' I was in charge of Code Reviews and deployments.'."\n".' I\'ve used Composer in order to modularize the project.',
             ),
         ),
         array(
@@ -1038,8 +1038,8 @@ $profile = array(
                 'title' => 'Wojooh',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion CRM Custom, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.'."\n".' Hacia los Code Review de todos los Pull Request y estaba a cargo del proceso de Deploy'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
             ),
             'en' => array(
                 'date' => array(
@@ -1049,8 +1049,8 @@ $profile = array(
                 'title' => 'Wojooh',
                 'url'   => null,
                 'tasks' => 'PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom CRM Integration, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.'."\n".' I was in charge of Code Reviews and deployments.'."\n".' I\'ve used Composer in order to modularize the project.',
             ),
         ),
         array(
@@ -1062,8 +1062,8 @@ $profile = array(
                 'title' => 'Sephora Middle East',
                 'url'   => null,
                 'tasks' => 'Tech Lead, PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion Omni-channel Custom, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion Omni-channel Custom, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Desarrolle una nueva extensión de magento para integrar Fetchr como método de envío.'."\n".' Hacia los Code Review de todos los Pull Request y estaba a cargo del proceso de Deploy'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
             ),
             'en' => array(
                 'date' => array(
@@ -1073,8 +1073,32 @@ $profile = array(
                 'title' => 'Sephora Middle East',
                 'url'   => null,
                 'tasks' => 'Tech Lead, PHP and Magento Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom Omni-channel Integration, Fetchr Integration, MySQL, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom Omni-channel Integration, Fetchr Integration, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' Develop Magento extension to integrate Fetchr carrier.'."\n".' I was in charge of Code Reviews and deployments.'."\n".' I\'ve used Composer in order to modularize the project.',
+            ),
+        ),
+        array(
+            'es' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2016',
+                ),
+                'title' => 'Screwfix Omni Channel',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Lenguaje, Multi Websites, Integracion Omni-channel Custom, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+            ),
+            'en' => array(
+                'date' => array(
+                    'from'  => '2016',
+                    'to'    => '2016',
+                ),
+                'title' => 'Screwfix Omni Channel',
+                'url'   => null,
+                'tasks' => 'PHP and Magento Developer',
+                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, Custom Omni-channel Integration, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' I\'ve used Composer in order to modularize the project.',
             ),
         ),
         array(
@@ -1086,8 +1110,8 @@ $profile = array(
                 'title' => 'Ounass UAE/KSA/QAT',
                 'url'   => null,
                 'tasks' => 'PHP 7 and Magento 2 Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, MySQL, Scrum.',
-                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.',
+                'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
             ),
             'en' => array(
                 'date' => array(
@@ -1097,8 +1121,8 @@ $profile = array(
                 'title' => 'Ounass UAE/KSA/QAT',
                 'url'   => null,
                 'tasks' => 'PHP 7 and Magento 2 Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, MySQL, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.',
+                'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
             ),
         ),
         array(
@@ -1110,8 +1134,8 @@ $profile = array(
                 'title' => 'Mamas And Papas UAE/KSA',
                 'url'   => null,
                 'tasks' => 'PHP 7 and Magento 2 Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, MySQL, Scrum.',
-                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.',
+                'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+                'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
             ),
             'en' => array(
                 'date' => array(
@@ -1121,8 +1145,8 @@ $profile = array(
                 'title' => 'Mamas And Papas UAE/KSA',
                 'url'   => null,
                 'tasks' => 'PHP 7 and Magento 2 Developer',
-                'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, MySQL, Scrum.',
-                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.',
+                'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+                'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
             ),
         ),
     )

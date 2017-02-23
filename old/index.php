@@ -712,7 +712,7 @@ require_once('php/config.php');
 	<!-- Social adds -->
 
 
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCQudVc5QnyxiFHDPnzP2InDnFNzqisvRI"></script>
 
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.min.js"></script>
 
@@ -736,7 +736,7 @@ require_once('php/config.php');
         var GLOBAL_VARS = {
             'lat' : '<?php echo $profile['address']['lat']; ?>',
             'long': '<?php echo $profile['address']['long']; ?>',
-            'address': '<?php echo $profile['address']['street']; ?> <?php echo $profile['address']['city']; ?> <?php echo $profile['address']['country']; ?>',
+            'address': 'Villas Caroline Beach, Flic en Flac, Mauritius',
             'contact': {
                 'urlPost'   : '<?php echo $urlsPrefix; ?>contact.php'
             },
