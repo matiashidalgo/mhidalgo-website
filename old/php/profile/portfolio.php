@@ -600,4 +600,28 @@ return array(
             'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
         ),
     ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2017',
+                'to'    => '2017',
+            ),
+            'title' => 'Static Version Module',
+            'url'   => null,
+            'tasks' => 'PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle un modulo para Magento 1 con el cual se añade versionado a las url de los archivos estaticos (js y css) lo que los hace refrescarse automaticamente cuando son actualizados durante un deploy, el modulo soporta CDN, invalidacion de browser cache y funciona con Apache y Nginx.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2017',
+                'to'    => '2017',
+            ),
+            'title' => 'Static Version Module',
+            'url'   => null,
+            'tasks' => 'PHP and Magento Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento EE, Composer, MySQL, Scrum.',
+            'description' => 'Developed a Magento module which adds version number to static files like js and css in order to refresh their content automatically after deployments, avoiding issues by CDN and browser caches, it works fine with Apache and Nginx.',
+        ),
+    ),
 );
