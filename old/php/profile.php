@@ -17,7 +17,7 @@ $profile = array(
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
-        'en' => 'Persevere and you will succeed',
+        'en' => 'Persevere and will triumph',
     ),
     'names'             => 'Matias Martin',
     'last_name'         => 'Hidalgo',
