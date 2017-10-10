@@ -156,4 +156,36 @@ return array(
             'description'   => 'I got my certification on Magento Solution Specialist in December of 2016.'
         ),
     ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Jul',
+                'year'  => '2017',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Ago',
+                'year'  => '2017',
+            ),
+            'title'         => 'Magento 2 Certified Solution Specialist',
+            'place'         => 'Magento Inc.',
+            'description'   => 'Consegui mi certificación en Magento 2 Solution Specialist Beta en Agosto del 2017, convirtiendome en uno de los primeros M2 Certified del mundo.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Jul',
+                'year'  => '2017',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Aug',
+                'year'  => '2017',
+            ),
+            'title'         => 'Magento 2 Certified Solution Specialist',
+            'place'         => 'Magento Inc.',
+            'description'   => 'I got my certification on Magento 2 Solution Specialist Beta in August of 2017, becoming one of the first M2 Certified of the world.'
+        ),
+    ),
 );

@@ -12,7 +12,7 @@ return array(
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Redbox Digital Ltd.',
-            'description'   => 'Desarrollo e-commerces sobre la plataforma Magento, principalmente para proyectos de Medio oriente y Europa, la mayoria con arquitecturas Omni channel lo cual significo un desafio profesional.'
+            'description'   => 'Desarrollo e-commerces sobre la plataforma Magento (1 y 2), principalmente para proyectos de Medio oriente y Europa, la mayoria con arquitecturas Omni channel lo cual significo un desafio profesional.'
         ),
         'en' => array(
             'from'  => array(
@@ -25,7 +25,7 @@ return array(
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Redbox Digital Ltd.',
-            'description'   => 'I Develop e-commerce based on Magento Platform, mainly for projects from middle-east and Europe, most of them with Omni-channel Architectures, which means a big professional challenge for me.'
+            'description'   => 'I Develop e-commerce based on Magento Platform (1 and 2), mainly for projects from middle-east and Europe, most of them with Omni-channel Architectures, which means a big professional challenge for me.'
         ),
     ),
     array(

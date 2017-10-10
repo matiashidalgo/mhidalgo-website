@@ -12,8 +12,8 @@ $profile = array(
     'full_name'         => 'Matias Hidalgo',
     'photo'             => 'images/content/mhidalgo.jpg',
     'job'               => array(
-        'es' => 'PHP Developer & Magento MCD+/MSS',
-        'en' => 'PHP Developer & Magento MCD+/MSS',
+        'es' => 'PHP Developer & Magento MCD+/MSS/M2SS',
+        'en' => 'PHP Developer & Magento MCD+/MSS/M2SS',
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
@@ -34,7 +34,7 @@ $profile = array(
         'lat'       => '-20.275686',
         'long'      => '57.3747906'
     ),
-    'mobile'            => '+954 249-457-1044',
+    'mobile'            => '+230 5707-1106',
     'phone'             => null,
     'email'             => 'me@mhidalgo.tk',
     'website'           => 'www.mhidalgo.tk',
