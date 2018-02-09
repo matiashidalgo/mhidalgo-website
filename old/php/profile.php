@@ -42,8 +42,8 @@ $profile = array(
     'level_experience'  => 'Sr.',
     'languages'         => 'ES, EN',
     'self_description'  => array(
-        'es' => 'Soy un Sr. PHP Developer con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. En los últimos cuatro años tome una orientación al desarrollo de e-commerce pero mientras tanto utilizo mi tiempo libre para continuar expandiendo mis conocimientos en frontend development y los nuevos frameworks JS.',
-        'en' => 'Sr. PHP Developer with a solid technical background and working experience in analysis, design and development of web based applications. On last four years I\'ve taken a backend e-commerce developer orientation but meanwhile took free time to keep up my knowledge on frontend development and new JavaScript frameworks.',
+        'es' => 'Soy un Desarrollador PHP y Magento Senior con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. Durante los últimos seis años me especializo en el desarrollo de e-commerce bajo la plataforma Magento (1 y 2) llegando a conseguir tres certificaciones en dicha plataforma mientras me proyecto a convertirme en Arquitecto de Magento.',
+        'en' => 'Sr. PHP and Magento Developer with a solid technical background and working experience in analysis, design and development of web based applications. During last six years I specialize in e-commerce development with Magento (1 and 2) platform even I own three certifications in such platform meanwhile I plan to become a Magento Architect.',
     ),
     'skills'            => include('profile/skills.php'),
     'office'            => array(

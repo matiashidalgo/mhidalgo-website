@@ -29,7 +29,7 @@ return array(
             ),
             'title'         => 'Computer Technician',
             'place'         => 'EET Nº2 Ing. Felipe Senillosa',
-            'description'   => 'On 2009 I get my degree on Computer Technician.'
+            'description'   => 'I got my degree of Technician on Personal and Professional Computing on 2009.'
         ),
     ),
     array(
@@ -59,9 +59,9 @@ return array(
                 'month' => 'Dic',
                 'year'  => '2013',
             ),
-            'title'         => 'Technical Developer and Networks Management',
+            'title'         => 'College Technician on Development and Network Management',
             'place'         => 'UNCPBA',
-            'description'   => 'On 2012 I finish my lessons on the university and at December 2013 I did my thesis getting an excellent 100% note.'
+            'description'   => 'I finished my lessons on the university on 2012 and I did my thesis getting an excellent 100% note on December 2013.'
         ),
     ),
     array(
@@ -89,7 +89,7 @@ return array(
             ),
             'title'         => 'Software Engineering',
             'place'         => 'UNCPBA',
-            'description'   => 'I started Software Engineering at 2010 and I continue with it at 2013. I continue studding since that moment.'
+            'description'   => 'I started Software Engineering at 2010 and I continue with it at 2013, after got my degree in CTDNM. I continue studding since that moment.'
         ),
     ),
     array(

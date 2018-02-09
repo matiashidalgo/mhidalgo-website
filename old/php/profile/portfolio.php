@@ -672,4 +672,28 @@ return array(
             'description' => 'Developed a Magento module which adds version number to static files like js and css in order to refresh their content automatically after deployments, avoiding issues by CDN and browser caches, it works fine with Apache and Nginx.',
         ),
     ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2017',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Nisnass UAE/KSA',
+            'url'   => null,
+            'tasks' => 'PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2017',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Nisnass UAE/KSA',
+            'url'   => null,
+            'tasks' => 'PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    )
 );

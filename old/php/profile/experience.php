@@ -121,7 +121,7 @@ return array(
             ),
             'title'         => 'Technical support and customer assistant',
             'company'       => 'TODOSISTEMAS',
-            'description'   => 'I was providing technical support fixing PCs on official services of LAWSA and MAPFRE.'
+            'description'   => 'I was providing technical support by fixing PCs for personal and official services of LAWSA and MAPFRE.'
         ),
     ),
     array(
@@ -136,7 +136,7 @@ return array(
             ),
             'title'         => 'Soporte técnico a domicilio',
             'company'       => 'Freelance',
-            'description'   => 'Proporciono soluciones informáticas a domicilio en mi tiempo libre.'
+            'description'   => 'Desarrollo aplicaciones web en mi tiempo libre.'
         ),
         'en' => array(
             'from'  => array(
