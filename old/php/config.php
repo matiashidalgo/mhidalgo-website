@@ -25,7 +25,7 @@ $yearExperience = calculateYears(array('day' => 1, 'month' => 1, 'year' => 2008)
 $keywords = 'magento, magento 2, magento 2 solution specialist, magento solution specialist, magento certified developer, e-commerce, php, web developer, web, developer, desarrollador, programación, programador, HTML, HTML5, CSS3, CSS, Yii, Framework, MVC, Matias, Hidalgo, Senior';
 $config = array(
     'es' => array(
-        'title' => 'Matias Hidalgo - PHP Developer & Magento Cert. Developer Plus, Solution Specialist and M2 Solution Specialist - vCard',
+        'title' => 'Matias Hidalgo - Senior PHP Developer & Magento Certified Dev. Plus, Solution Specialist, M2 Solution Specialist and M2 Professional Developer - vCard',
         'metas' => array(
             'description'   => 'vCard de Matias Hidalgo, Magento developer con más de '.$yearExperience.' años de experiencia desarrollando e-commerces y websites',
             'keyword'       => $keywords,
@@ -33,7 +33,7 @@ $config = array(
         'email' => 'me@mhidalgo.tk'
     ),
     'en' => array(
-        'title' => 'Matias Hidalgo - PHP Developer & Magento Cert. Developer Plus, Solution Specialist and M2 Solution Specialist - vCard',
+        'title' => 'Matias Hidalgo - Senior PHP Developer & Magento Certified Dev. Plus, Solution Specialist, M2 Solution Specialist and M2 Professional Developer - vCard',
         'metas' => array(
             'description'   => 'Matias Hidalgo vCard, Magento developer with more than '.$yearExperience.' years of experience developing e-commerces and websites',
             'keyword'       => $keywords,

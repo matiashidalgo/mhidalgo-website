@@ -66,8 +66,8 @@ return array(
         'file'  => 'docs/magento/MCDP_Certificate.pdf',
         'last_updated' => '13/02/2017',
         'info' => array(
-            'es' => 'Este link le permitira descargar mi certificado en Magento Developer Plus.',
-            'en' => 'This link allow you to download my certificate of Magento Developer Plus.',
+            'es' => 'Este link le permitira descargar mi certificado de Magento Developer Plus.',
+            'en' => 'This link allow you to download my Magento Developer Plus certificate.',
         )
     ),
     array(
@@ -86,8 +86,8 @@ return array(
         'file'  => 'docs/magento/MCSS_Certificate.pdf',
         'last_updated' => '13/02/2017',
         'info' => array(
-            'es' => 'Este link le permitira descargar mi certificado en Magento Solution Specialist.',
-            'en' => 'This link allow you to download my certificate of Magento Solution Specialist.',
+            'es' => 'Este link le permitira descargar mi certificado de Magento Solution Specialist.',
+            'en' => 'This link allow you to download my Magento Solution Specialist certificate.',
         )
     ),
     array(
@@ -96,8 +96,18 @@ return array(
         'file'  => 'docs/magento/M2CSS_Certificate.pdf',
         'last_updated' => '10/10/2017',
         'info' => array(
-            'es' => 'Este link le permitira descargar mi certificado en Magento 2 Solution Specialist.',
-            'en' => 'This link allow you to download my certificate of Magento 2 Solution Specialist.',
+            'es' => 'Este link le permitira descargar mi certificado de Magento 2 Solution Specialist.',
+            'en' => 'This link allow you to download my Magento 2 Solution Specialist certificate.',
+        )
+    ),
+    array(
+        'title' => 'Magento 2 Certified Professional Developer - Certificate',
+        'format'=> 'PDF',
+        'file'  => 'docs/magento/M2CPD_Certificate.pdf',
+        'last_updated' => '10/10/2017',
+        'info' => array(
+            'es' => 'Este link le permitira descargar mi certificado de Magento 2 Professional Developer.',
+            'en' => 'This link allow you to download my Magento 2 Professional Developer certificate.',
         )
     ),
     array(

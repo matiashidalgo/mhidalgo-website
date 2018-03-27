@@ -188,4 +188,36 @@ return array(
             'description'   => 'I got my certification on Magento 2 Solution Specialist Beta in August of 2017, becoming one of the first M2 Certified of the world.'
         ),
     ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Feb',
+                'year'  => '2018',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Mar',
+                'year'  => '2018',
+            ),
+            'title'         => 'Magento 2 Certified Professional Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'Consegui mi certificación en Magento 2 Professional Developer en Marzo del 2018, convirtiendome en diecisieteavo M2CPD del mundo.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Jul',
+                'year'  => '2017',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Aug',
+                'year'  => '2017',
+            ),
+            'title'         => 'Magento 2 Certified Professional Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'I got my certification on Magento 2 Professional Developer in March of 2018, becoming on the 17th M2CPD of the world.'
+        ),
+    ),
 );

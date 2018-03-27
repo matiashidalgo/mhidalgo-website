@@ -10,7 +10,7 @@
 
 $profile = array(
     'full_name'         => 'Matias Hidalgo',
-    'photo'             => 'images/content/mhidalgo.jpg',
+    'photo'             => 'images/content/mhidalgonew2.png',
     'job'               => array(
         'es' => 'PHP Developer & Magento MCD+/MSS/M2SS',
         'en' => 'PHP Developer & Magento MCD+/MSS/M2SS',
