@@ -12,8 +12,8 @@ $profile = array(
     'full_name'         => 'Matias Hidalgo',
     'photo'             => 'images/content/mhidalgonew2.png',
     'job'               => array(
-        'es' => 'PHP Developer & Magento MCD+/MSS/M2SS',
-        'en' => 'PHP Developer & Magento MCD+/MSS/M2SS',
+        'es' => 'TTL, PHP & Magento Developer, x4 Magento Certified',
+        'en' => 'TTL, PHP & Magento Developer, x4 Magento Certified',
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
