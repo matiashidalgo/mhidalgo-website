@@ -700,24 +700,96 @@ return array(
         'es' => array(
             'date' => array(
                 'from'  => '2018',
-                'to'    => date('Y'),
+                'to'    => '2018',
             ),
-            'title' => 'Victoria\'s Secret UAE',
+            'title' => 'Victoria\'s Secret ME',
             'url'   => null,
-            'tasks' => 'Tech Lead, Senior PHP 7 and Magento 2 Developer, Magento 2 Solution Specialist',
+            'tasks' => 'Magento Business Analyst, Magento Technical Architect',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Fui parte del equipo que mantuvo las conversaciones iniciales para la preparación de la propuesta final de desarrollo del Proyecto.'."\n".'Se hizo un análisis de los requerimientos y se estimaron los tiempos de desarrollo.'."\n".'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => '2018',
+            ),
+            'title' => 'Victoria\'s Secret ME',
+            'url'   => null,
+            'tasks' => 'Magento Business Analyst, Magento Technical Architect',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'I’ve been part of the team which had early discussions and meetings during delivery of the final project solution proposal.'."\n".'Requirements analysis and estimate times of development.'."\n".'Develop Magento modules to initialize the project and customize e-commerce platform based-on client requirements.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => '2018',
+            ),
+            'title' => 'Mothercare AE, BH, KW, SA',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Headless Magento 2, Composer, MySQL, Scrum.',
             'description' => 'Se hizo un análisis de los requerimientos y se estimaron los tiempos de desarrollo.'."\n".'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
         ),
         'en' => array(
             'date' => array(
                 'from'  => '2018',
-                'to'    => date('Y'),
+                'to'    => '2018',
             ),
-            'title' => 'Victoria\'s Secret UAE',
+            'title' => 'Mothercare AE, BH, KW, SA',
             'url'   => null,
-            'tasks' => 'Tech Lead, Senior PHP 7 and Magento 2 Developer, Magento 2 Solution Specialist',
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
             'description' => 'Requirements analysis and estimate times of development.'."\n".'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => '2018',
+            ),
+            'title' => 'H&M AE, BH, KW, SA',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Se hizo un análisis de los requerimientos y se estimaron los tiempos de desarrollo.'."\n".'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => '2018',
+            ),
+            'title' => 'H&M AE, BH, KW, SA',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Requirements analysis and estimate times of development.'."\n".'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Nahdi Shop SA',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Lenguaje, Multi Websites, API Rest, Service Contracts, Injeccion de Dependencias, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'Lideré al equipo técnicamente, asistiendo a los desarrolladores en cada tarea, proponiendo soluciones factibles y funcionales.'."\n".'Se hizo un análisis de los requerimientos y se estimaron los tiempos de desarrollo.'."\n".'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle nuevos endpoints sobre la API Rest de la plataforma Magento 2 basado en los requerimientos.'."\n".'Soporte y bug fixing.'."\n"."Desarrolle una integracion de Single Sign On con OpenIDConnect."."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2018',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Nahdi Shop SA',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
+            'description' => 'I’ve been part of the team which had early discussions and meetings during delivery of the final project solution proposal.'."\n".'Requirements analysis and estimate times of development.'."\n".'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n"."Single Sign On integration module development with OpenIDConnect."."\n".' I\'ve used Composer in order to modularize the project.',
         ),
     )
 );
