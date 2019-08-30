@@ -4,11 +4,41 @@ return array(
         'es' => array(
             'from'  => array(
                 'type' => 'date',
+                'month' => 'Sept',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Tech Lead & Backend Developer',
+            'company'       => 'Mediotype',
+            'description'   => 'Desarrollo e-commerces sobre la plataforma Magento (1 y 2), principalmente para proyectos de Norteamerica.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Sept',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Tech Lead & Backend Developer',
+            'company'       => 'Mediotype',
+            'description'   => 'I Develop e-commerce based on Magento Platform (1 and 2), mainly for projects from North America.'
+        ),
+    ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
                 'month' => 'April',
                 'year'  => '2016',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'August',
+                'year'  => '2019',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Redbox Digital Ltd.',
@@ -21,7 +51,9 @@ return array(
                 'year'  => '2016',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'Agosto',
+                'year'  => '2019',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Redbox Digital Ltd.',
@@ -37,7 +69,7 @@ return array(
             ),
             'to'    => array(
                 'type' => 'date',
-                'month' => 'March',
+                'month' => 'Marzo',
                 'year'  => '2016',
             ),
             'title'         => 'PHP Developer',
@@ -134,7 +166,7 @@ return array(
             'to'    => array(
                 'type' => 'now',
             ),
-            'title'         => 'Soporte técnico a domicilio',
+            'title'         => 'Desarrollador y soporte técnico',
             'company'       => 'Freelance',
             'description'   => 'Desarrollo aplicaciones web en mi tiempo libre.'
         ),

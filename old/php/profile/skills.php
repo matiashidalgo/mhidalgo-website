@@ -18,12 +18,12 @@ return array(
         'es' => array(
             'label'         => 'Magento 1 y 2',
             'percentage'    => '95',
-            'description'   => 'Desde que trabajé en Summa Solutions utilizo esta plataforma de e-commerce profesionalizandome dia a dia, actualmente en Redbox Digital me encuentro trabajando en Magento 2 con proyectos que tienen arquitecturas Omnichannel, en Agosto de 2015 consegui certificarme como Magento Developer Plus con un score excelente, en 2016 me certifique como Magento Solution Specialist y recientemente me certifique en Magento 2 Solution Specialist.'
+            'description'   => 'Desde que trabajé en Summa Solutions utilizo esta plataforma de e-commerce profesionalizandome dia a dia, en Redbox Digital trabajé en Magento 2 con proyectos que tenian arquitecturas Omnichannel, hasta el momento me certifiqué como Magento Developer Plus, Magento Solution Specialist, Magento 2 Solution Specialist y Magento 2 Professional Developer.'
         ),
         'en' => array(
             'label'         => 'Magento 1 and 2',
             'percentage'    => '95',
-            'description'   => 'I started to develop e-commerce using Magento Platform at Summa Solutions, and now at Redbox Digital I\'ve started to work in Magento 2 dealing with big Omni-Channel architecture projects, so I have daily new challenges. Recently, I\'ve pass the Magento 2 Solution Specialist and I\'m already Magento Solution Specialist and Magento Certified Developer Plus with a perfect score since August of 2015.'
+            'description'   => 'I started to develop e-commerce using Magento Platform at Summa Solutions, at Redbox Digital I\'ve been working in Magento 2 dealing with big Omni-Channel architecture projects. I\'ve pass the Magento Certified Developer Plus, Magento Solution Specialist, Magento 2 Solution Specialist and Magento 2 Professional Developer.'
         ),
     ),
     array(
