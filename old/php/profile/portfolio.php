@@ -772,7 +772,7 @@ return array(
         'es' => array(
             'date' => array(
                 'from'  => '2018',
-                'to'    => date('Y'),
+                'to'    => '2019',
             ),
             'title' => 'Nahdi Shop SA',
             'url'   => null,
@@ -783,13 +783,37 @@ return array(
         'en' => array(
             'date' => array(
                 'from'  => '2018',
-                'to'    => date('Y'),
+                'to'    => '2019',
             ),
             'title' => 'Nahdi Shop SA',
             'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento 2 Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, Multi Language, Multi Websites, API Rest, Service Contracts, Dependency Injection, Headless Magento 2, Composer, MySQL, Scrum.',
             'description' => 'I’ve been part of the team which had early discussions and meetings during delivery of the final project solution proposal.'."\n".'Requirements analysis and estimate times of development.'."\n".'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop new endpoints over API Rest of Magento 2 based-on client requirements.'."\n".'Support and bug fixing.'."\n"."Single Sign On integration module development with OpenIDConnect."."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2019',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Palmetto State Armor',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2019',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Palmetto State Armor',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' I\'ve used Composer in order to modularize the project.',
         ),
     )
 );

@@ -4,7 +4,7 @@ return array(
         'title' => 'Matias Hidalgo - CV',
         'format'=> 'PDF',
         'file'  => 'docs/CV-mhidalgo.pdf',
-        'last_updated' => '10/10/2017',
+        'last_updated' => '03/01/2020',
         'info' => array(
             'es' => 'Este link le permitira descargar mi curriculum en Español en su version PDF.',
             'en' => 'This link allow you to download my CV on PDF and spanish language.',
@@ -14,7 +14,7 @@ return array(
         'title' => 'Matias Hidalgo - CV',
         'format'=> 'DOCX',
         'file'  => 'docs/CV-mhidalgo.docx',
-        'last_updated' => '10/10/2017',
+        'last_updated' => '03/01/2020',
         'info' => array(
             'es' => 'Este link le permitira descargar mi curriculum en Español en su version DOCX.',
             'en' => 'This link allow you to download my CV on DOCX and spanish language.',
@@ -24,7 +24,7 @@ return array(
         'title' => 'Matias Hidalgo - CV',
         'format'=> 'PDF',
         'file'  => 'docs/CV-mhidalgo-EN.pdf',
-        'last_updated' => '10/10/2017',
+        'last_updated' => '03/01/2020',
         'info' => array(
             'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version PDF.',
             'en' => 'This link allow you to download my CV on PDF and english language.',
@@ -34,7 +34,7 @@ return array(
         'title' => 'Matias Hidalgo - CV',
         'format'=> 'DOCX',
         'file'  => 'docs/CV-mhidalgo-EN.docx',
-        'last_updated' => '10/10/2017',
+        'last_updated' => '03/01/2020',
         'info' => array(
             'es' => 'Este link le permitira descargar mi curriculum en Ingles en su version DOCX.',
             'en' => 'This link allow you to download my CV on DOCX and english language.',
@@ -104,10 +104,30 @@ return array(
         'title' => 'Magento 2 Certified Professional Developer - Certificate',
         'format'=> 'PDF',
         'file'  => 'docs/magento/M2CPD_Certificate.pdf',
-        'last_updated' => '10/10/2017',
+        'last_updated' => '05/04/2018',
         'info' => array(
             'es' => 'Este link le permitira descargar mi certificado de Magento 2 Professional Developer.',
             'en' => 'This link allow you to download my Magento 2 Professional Developer certificate.',
+        )
+    ),
+    array(
+        'title' => 'Magento Certified Professional Cloud Developer - Certificate',
+        'format'=> 'PDF',
+        'file'  => 'docs/magento/MCPCD_Certificate.pdf',
+        'last_updated' => '03/01/2020',
+        'info' => array(
+            'es' => 'Este link le permitira descargar mi certificado de Magento Professional Cloud Developer.',
+            'en' => 'This link allow you to download my Magento Professional Cloud Developer.',
+        )
+    ),
+    array(
+        'title' => 'Magento 2 Certified Associate Developer - Certificate',
+        'format'=> 'PDF',
+        'file'  => 'docs/magento/M2CAD_Certificate.pdf',
+        'last_updated' => '03/01/2020',
+        'info' => array(
+            'es' => 'Este link le permitira descargar mi certificado de Magento 2 Associate Developer.',
+            'en' => 'This link allow you to download my Magento 2 Associate Developer certificate.',
         )
     ),
     array(
