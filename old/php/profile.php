@@ -12,8 +12,8 @@ $profile = array(
     'full_name'         => 'Matias Hidalgo',
     'photo'             => 'images/content/mhidalgonew2.png',
     'job'               => array(
-        'es' => 'TTL, PHP & Magento Developer, x4 Magento Certified',
-        'en' => 'TTL, PHP & Magento Developer, x4 Magento Certified',
+        'es' => 'TTL, PHP & Magento Developer, x6 Magento Certified',
+        'en' => 'TTL, PHP & Magento Developer, x6 Magento Certified',
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
@@ -34,7 +34,7 @@ $profile = array(
         'lat'       => '-20.275686',
         'long'      => '57.3747906'
     ),
-    'mobile'            => '+230 5707-1106',
+    'mobile'            => '+54 249 428 1765',
     'phone'             => null,
     'email'             => 'me@mhidalgo.tk',
     'website'           => 'www.mhidalgo.tk',
