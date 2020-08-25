@@ -537,7 +537,7 @@ require_once('php/config.php');
 
                 <h2><?php echo $language['Contact']; ?></h2>
 
-                <div id="map"></div>
+                <!--<div id="map"></div>-->
 
             </div>
 
@@ -712,7 +712,7 @@ require_once('php/config.php');
 	<!-- Social adds -->
 
 
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCQudVc5QnyxiFHDPnzP2InDnFNzqisvRI"></script>
+    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCQudVc5QnyxiFHDPnzP2InDnFNzqisvRI"></script>-->
 
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.min.js"></script>
 

@@ -796,7 +796,7 @@ return array(
         'es' => array(
             'date' => array(
                 'from'  => '2019',
-                'to'    => date('Y'),
+                'to'    => '2019',
             ),
             'title' => 'Palmetto State Armor',
             'url'   => null,
@@ -807,13 +807,37 @@ return array(
         'en' => array(
             'date' => array(
                 'from'  => '2019',
-                'to'    => date('Y'),
+                'to'    => '2019',
             ),
             'title' => 'Palmetto State Armor',
             'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento 2 Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
             'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Pentair',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento Order Management Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle customizaciones a la integracion con Magento Order Management de Magento 2.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Pentair',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop customizations to the Magento Order Management module from magento 2.'."\n".' I\'ve used Composer in order to modularize the project.',
         ),
     )
 );

@@ -40,7 +40,7 @@ $(document).ready(function(){
 		/* ---------------------------------------------------------------------- */
 		/*	Google Maps
 		/* ---------------------------------------------------------------------- */
-		var $map 				= $('#map'),
+		/*var $map 				= $('#map'),
 			$tabContactClass 	= ('contacts');
 
 		$tabscontainer.bind('easytabs:after', function(evt,tab,panel) {
@@ -53,7 +53,7 @@ $(document).ready(function(){
 					]
 				});
 			}
-		});
+		});*/
     });
 	
     

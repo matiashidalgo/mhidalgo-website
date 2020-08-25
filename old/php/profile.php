@@ -29,8 +29,8 @@ $profile = array(
     'address'           => array(
         'country'   => 'Mauritius',
         'state'     => 'Buenos Aires',
-        'city'      => 'Benito Juarez',
-        'street'    => 'Pellegrini 382',
+        'city'      => 'Tandil',
+        'street'    => 'Carlos Gardel 1731',
         'lat'       => '-20.275686',
         'long'      => '57.3747906'
     ),
@@ -42,8 +42,8 @@ $profile = array(
     'level_experience'  => 'Sr.',
     'languages'         => 'ES, EN',
     'self_description'  => array(
-        'es' => 'Soy un Desarrollador de PHP y Magento Senior con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. Durante los últimos seis años me especializo en el desarrollo de e-commerce bajo la plataforma Magento (1 y 2) llegando a conseguir tres certificaciones en dicha plataforma mientras me proyecto a convertirme en Arquitecto de Magento.',
-        'en' => 'Sr. PHP and Magento Developer with a solid technical background and working experience in analysis, design and development of web based applications. During last six years I specialize in e-commerce development with Magento (1 and 2) platform even I own three certifications in such platform meanwhile I plan to become a Magento Architect.',
+        'es' => 'Soy un Desarrollador de PHP y Magento Senior con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. Durante los últimos seis años me especializo en el desarrollo de e-commerce bajo la plataforma Magento (1 y 2) llegando a conseguir seis certificaciones en dicha plataforma mientras me proyecto a convertirme en Arquitecto de Magento.',
+        'en' => 'Sr. PHP and Magento Developer with a solid technical background and working experience in analysis, design and development of web based applications. During last six years I specialize in e-commerce development with Magento (1 and 2) platform even I own six certifications in such platform meanwhile I plan to become a Magento Architect.',
     ),
     'skills'            => include('profile/skills.php'),
     'office'            => array(
