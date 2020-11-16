@@ -41,9 +41,9 @@ return array(
         )
     ),
     array(
-        'title' => 'Matias Hidalgo - Certifications Directory',
+        'title' => 'Matias Hidalgo - Adobe Certifications',
         'format'=> 'URL',
-        'file'  => 'http://www.magentocommerce.com/certification/directory/dev/1548112/',
+        'file'  => 'https://www.youracclaim.com/users/matiashidalgo',
         'last_updated' => null,
         'info' => array(
             'es' => 'Este link le permitira visualizar mis certificaciones en Magento.',
@@ -128,6 +128,16 @@ return array(
         'info' => array(
             'es' => 'Este link le permitira descargar mi certificado de Magento 2 Associate Developer.',
             'en' => 'This link allow you to download my Magento 2 Associate Developer certificate.',
+        )
+    ),
+    array(
+        'title' => 'Magento 2 Certified Order Management Developer - Certificate',
+        'format'=> 'PDF',
+        'file'  => 'docs/magento/M2COMD_Certificate.pdf',
+        'last_updated' => '16/11/2020',
+        'info' => array(
+            'es' => 'Este link le permitira descargar mi certificado de Magento 2 Order Management Developer.',
+            'en' => 'This link allow you to download my Magento 2 Order Management Developer certificate.',
         )
     ),
     array(

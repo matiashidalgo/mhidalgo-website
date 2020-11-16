@@ -2,22 +2,21 @@
 require_once('php/functions.php');
 
     if ($_POST["name"] &&
-        $_POST["website"] &&
         $_POST["email"] &&
         $_POST["comment"] &&
         preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$_POST["email"])
     ) {
 
-        $website = ($_POST["website"] == "WebSite" && !filter_var(sanitize($_POST["website"],'url'), FILTER_VALIDATE_URL)) ? false : sanitize($_POST["website"],'url');
+        $website = (isset($_POST["website"]) && $_POST["website"] !== '' && !filter_var(sanitize($_POST["website"],'url'), FILTER_VALIDATE_URL)) ? false : sanitize($_POST["website"],'url');
         $toEmail = 'chuj4pr0@hotmail.com';
         $message = '';
         $subject = '';
         if($website) {
             $subject = 'Contacto en mhidalgo.tk de '.sanitize($_POST["name"],'string').' del website '.$website;
-            $message = sanitize($_POST["comment"],'html') . " Enviado por ".sanitize($_POST["name"],'string')." del sitio web ".$website;
+            $message = sanitize($_POST["comment"],'html') . "\n Enviado por ".sanitize($_POST["name"],'string')." del sitio web ".$website;
         } else {
             $subject = 'Contacto en mhidalgo.tk de '.sanitize($_POST["name"],'string');
-            $message = sanitize($_POST["comment"],'html') . " Enviado por ".sanitize($_POST["name"],'string');
+            $message = sanitize($_POST["comment"],'html') . "\n Enviado por ".sanitize($_POST["name"],'string');
         }
 
         $mailData = array(

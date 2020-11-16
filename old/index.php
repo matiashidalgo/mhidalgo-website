@@ -21,7 +21,7 @@ require_once('php/config.php');
 	
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&amp;subset=latin,latin-ext"/>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600|Patua+One:400|Titillium+Web:400italic,700italic&amp;subset=latin,latin-ext"/>
 
     <link rel="stylesheet" type="text/css" href="<?php echo $urlsPrefix; ?>css/reset.css"/>
 
@@ -711,9 +711,6 @@ require_once('php/config.php');
 
 	<!-- Social adds -->
 
-
-    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCQudVc5QnyxiFHDPnzP2InDnFNzqisvRI"></script>-->
-
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.min.js"></script>
 
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.easytabs.min.js"></script>
@@ -726,8 +723,6 @@ require_once('php/config.php');
 
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.fancybox.pack.js"></script>
 
-    <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.gmap.min.js"></script>
-
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/jquery.placeholder.min.js"></script>
 
     <script type="text/javascript" src="<?php echo $urlsPrefix; ?>js/response.min.js"></script>
@@ -736,7 +731,7 @@ require_once('php/config.php');
         var GLOBAL_VARS = {
             'lat' : '<?php echo $profile['address']['lat']; ?>',
             'long': '<?php echo $profile['address']['long']; ?>',
-            'address': 'Villas Caroline Beach, Flic en Flac, Mauritius',
+            'address': 'Carlos Gardel 1731, Tandil, Argentina',
             'contact': {
                 'urlPost'   : '<?php echo $urlsPrefix; ?>contact.php'
             },
@@ -751,24 +746,24 @@ require_once('php/config.php');
                 inputEmail = $('#form-email'),
                 inputMessage = $('#form-message'),
                 inputWebsite = $('#form-website');
-            if (inputName.val() == "") {
+            if (inputName.val() === "") {
                 returned = false;
                 message = "<?php echo $language['FormValidationNameRequiredMessage']; ?>";
             }
-            if (inputEmail.val() == "" && !isEmail(inputEmail.val()) && returned) {
+            if (inputEmail.val() === "" && !isEmail(inputEmail.val()) && returned) {
                 returned = false;
                 message = "<?php echo $language['FormValidationEmailRequiredMessage']; ?>";
             }
-            if (inputMessage.val() == "" && returned) {
+            if (inputMessage.val() === "" && returned) {
                 returned = false;
                 message = "<?php echo $language['FormValidationMessageRequiredMessage']; ?>";
             }
-            if (!isUrl(inputWebsite.val()) && returned) {
+            if (inputWebsite.val() !== '' && !isUrl(inputWebsite.val()) && returned) {
                 returned = false;
                 message = '<?php echo $language['FormValidationWebsiteUrlMessage']; ?>';
             }
 
-            if (message != "") {
+            if (message !== "") {
                 alert(message);
             }
             return returned;

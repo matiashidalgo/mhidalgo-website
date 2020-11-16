@@ -826,7 +826,7 @@ return array(
             'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento Order Management Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
-            'description' => 'Desarrolle customizaciones a la integracion con Magento Order Management de Magento 2.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+            'description' => 'Desarrolle customizaciones a la integracion con Magento Order Management de Magento 2.'."\n".'Desarrolle una implementacion de un Middleware complejo para conectar AWS SQS con Magento Order Management JSON RPC 2.0'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
         ),
         'en' => array(
             'date' => array(
@@ -837,7 +837,7 @@ return array(
             'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento 2 Developer',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
-            'description' => 'Develop customizations to the Magento Order Management module from magento 2.'."\n".' I\'ve used Composer in order to modularize the project.',
+            'description' => 'Develop customizations to the Magento Order Management module from magento 2.'."\n".'I\'ve developed a complex Middleware implementation in order to connect AWS SQS with Magento Order Management JSON RPC 2.0'."\n".' I\'ve used Composer in order to modularize the project.',
         ),
     )
 );

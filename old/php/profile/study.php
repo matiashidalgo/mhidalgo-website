@@ -207,17 +207,113 @@ return array(
         'en' => array(
             'from'  => array(
                 'type' => 'date',
-                'month' => 'Jul',
-                'year'  => '2017',
+                'month' => 'Feb',
+                'year'  => '2018',
             ),
             'to'    => array(
                 'type' => 'date',
-                'month' => 'Aug',
-                'year'  => '2017',
+                'month' => 'Mar',
+                'year'  => '2018',
             ),
             'title'         => 'Magento 2 Certified Professional Developer',
             'place'         => 'Magento Inc.',
             'description'   => 'I got my certification on Magento 2 Professional Developer in March of 2018, becoming on the 17th M2CPD of the world.'
         ),
     ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Nov',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Dic',
+                'year'  => '2019',
+            ),
+            'title'         => 'Magento Certified Professional Cloud Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'Consegui mi certificación en Magento 2 Professional Cloud Developer en Diciembre del 2019.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Nov',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Dec',
+                'year'  => '2019',
+            ),
+            'title'         => 'Magento 2 Certified Professional Cloud Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'I got my certification on Magento 2 Professional Cloud Developer in December of 2019.'
+        ),
+    ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Nov',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Dic',
+                'year'  => '2019',
+            ),
+            'title'         => 'Magento 2 Certified Associate Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'Consegui mi certificación en Magento 2 Associate Developer en Diciembre del 2019.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Nov',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Dec',
+                'year'  => '2019',
+            ),
+            'title'         => 'Magento 2 Certified Associate Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'I got my certification on Magento 2 Associate Developer in December of 2019.'
+        ),
+    ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Sep',
+                'year'  => '2020',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Oct',
+                'year'  => '2020',
+            ),
+            'title'         => 'Magento 2 Certified Order Management Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'Consegui mi certificación en Magento 2 Order Management Developer en Octubre del 2020, convirtiendome en doceavo M2COMD del mundo.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Sep',
+                'year'  => '2020',
+            ),
+            'to'    => array(
+                'type' => 'date',
+                'month' => 'Oct',
+                'year'  => '2020',
+            ),
+            'title'         => 'Magento 2 Certified Order Management Developer',
+            'place'         => 'Magento Inc.',
+            'description'   => 'I got my certification on Magento 2 Order Management Developer in October of 2020, becoming on the 12th M2COMD of the world.'
+        ),
+    )
 );

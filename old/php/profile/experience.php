@@ -11,6 +11,34 @@ return array(
                 'type' => 'now',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
+            'company'       => 'Blue Acorn iCi',
+            'description'   => 'Desarrollo e-commerces sobre la plataforma Magento (1 y 2), principalmente para proyectos de Norteamerica.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Sept',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Tech Lead & Backend Developer',
+            'company'       => 'Blue Acorn iCi',
+            'description'   => 'I Develop e-commerce based on Magento Platform (1 and 2), mainly for projects from North America.'
+        ),
+    ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'Sept',
+                'year'  => '2019',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Mediotype',
             'description'   => 'Desarrollo e-commerces sobre la plataforma Magento (1 y 2), principalmente para proyectos de Norteamerica.'
         ),

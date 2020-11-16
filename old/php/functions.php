@@ -38,7 +38,7 @@ function calculateYears($date)
  */
 function sendEmail($mailData)
 {
-    mail($mailData['to_list']['email'],$mailData['subject'],$mailData['html_content'],implode(';',$mailData['headers']));
+    mail($mailData['to_list']['email'],$mailData['subject'],$mailData['html_content']);
     return array(array('status' => 'sent'));
 }
 
