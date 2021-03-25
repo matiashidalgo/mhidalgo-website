@@ -12,8 +12,8 @@ $profile = array(
     'full_name'         => 'Matias Hidalgo',
     'photo'             => 'images/content/mhidalgonew2.png',
     'job'               => array(
-        'es' => 'TTL, PHP & Magento Developer, x7 Magento Certified',
-        'en' => 'TTL, PHP & Magento Developer, x7 Magento Certified',
+        'es' => 'Magento Architect, x7 Magento Certified',
+        'en' => 'Magento Architect, x7 Magento Certified',
     ),
     'motto'             => array(
         'es' => 'Persevera y Triunfarás',
@@ -39,11 +39,11 @@ $profile = array(
     'email'             => 'me@mhidalgo.tk',
     'website'           => 'www.mhidalgo.tk',
     'year_experience'   => $yearExperience,
-    'level_experience'  => 'TTL & Certified Sr.',
+    'level_experience'  => 'Architect',
     'languages'         => 'ES, EN',
     'self_description'  => array(
-        'es' => 'Soy un Desarrollador de PHP y Magento Senior con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. Durante los últimos seis años me especializo en el desarrollo de e-commerce bajo la plataforma Magento (1 y 2) llegando a conseguir siete certificaciones en dicha plataforma mientras me proyecto a convertirme en Arquitecto de Magento.',
-        'en' => 'Sr. PHP and Magento Developer with a solid technical background and working experience in analysis, design and development of web based applications. During last six years I specialize in e-commerce development with Magento (1 and 2) platform even I own seven certifications in such platform meanwhile I plan to become a Magento Architect.',
+        'es' => 'Soy un Magento Architect con sólidos conocimientos técnicos en análisis, diseño y desarrollo de aplicaciones web. Durante los últimos ocho años me especializo en el desarrollo de e-commerce bajo la plataforma Magento (1 y 2) llegando a conseguir siete certificaciones en dicha plataforma.',
+        'en' => 'Magento Architect with a solid technical background and working experience in analysis, design and development of web based applications. During last eight years I specialize in e-commerce development with Magento (1 and 2) platform even I own seven certifications in such platform.',
     ),
     'skills'            => include('profile/skills.php'),
     'office'            => array(

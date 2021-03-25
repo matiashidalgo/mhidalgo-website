@@ -793,6 +793,7 @@ require_once('php/config.php');
 	  ga('send', 'pageview');
 
 	</script>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6cd6520eea794d9886016569487bc3b6"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 
 </html>

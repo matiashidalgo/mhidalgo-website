@@ -820,24 +820,120 @@ return array(
         'es' => array(
             'date' => array(
                 'from'  => '2020',
-                'to'    => date('Y'),
+                'to'    => '2021',
             ),
             'title' => 'Pentair',
             'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento Order Management Developer',
-            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Magento Order Management, AWS SQS, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
             'description' => 'Desarrolle customizaciones a la integracion con Magento Order Management de Magento 2.'."\n".'Desarrolle una implementacion de un Middleware complejo para conectar AWS SQS con Magento Order Management JSON RPC 2.0'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
         ),
         'en' => array(
             'date' => array(
                 'from'  => '2020',
-                'to'    => date('Y'),
+                'to'    => '2021',
             ),
             'title' => 'Pentair',
             'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento Order Management Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Magento Order Management, AWS SQS, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop customizations to the Magento Order Management module from magento 2.'."\n".'I\'ve developed a complex Middleware implementation in order to connect AWS SQS with Magento Order Management JSON RPC 2.0'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => '2020',
+            ),
+            'title' => 'Alternative Apparel',
+            'url'   => null,
             'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => '2020',
+            ),
+            'title' => 'Alternative Apparel',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => '2020',
+            ),
+            'title' => 'Englewood Wine Merchants',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2020',
+                'to'    => '2020',
+            ),
+            'title' => 'Englewood Wine Merchants',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    ),
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2021',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Little Passports',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle módulos de magento para customizar la plataforma basado en los requerimientos del cliente.'."\n".'Desarrolle dos integraciones con APIs externas basandome en documentacion provista de las API en Swagger.'."\n".'Implemente un nuevo tipo de producto llamado Subscripciones el cual se basaba en el formato de product Bundle pero contenia una gran cantidad de customizaciones.'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2021',
+                'to'    => date('Y'),
+            ),
+            'title' => 'Little Passports',
+            'url'   => null,
+            'tasks' => 'Senior PHP 7 and Magento 2 Developer',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
+            'description' => 'Develop Magento modules to customize e-commerce platform based-on client requirements.'."\n".'Develop two external API integrations based on a provided swagger API docs.'."\n".'I\'ve developed a new product type named Subscription which was based on Bundle Product type but contains a big amount of customizations.'."\n".' I\'ve used Composer in order to modularize the project.',
+        ),
+    )/*,
+    array(
+        'es' => array(
+            'date' => array(
+                'from'  => '2021',
+                'to'    => date('Y'),
+            ),
+            'title' => '?',
+            'url'   => null,
+            'tasks' => 'Magento Architect',
+            'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Injeccion de Dependencias, Composer, MySQL, Scrum.',
+            'description' => 'Desarrolle customizaciones a la integracion con Magento Order Management de Magento 2.'."\n".'Desarrolle una implementacion de un Middleware complejo para conectar AWS SQS con Magento Order Management JSON RPC 2.0'."\n".' Utilizé Composer con el fin de modularizar el proyecto.',
+        ),
+        'en' => array(
+            'date' => array(
+                'from'  => '2021',
+                'to'    => date('Y'),
+            ),
+            'title' => '?',
+            'url'   => null,
+            'tasks' => 'Magento Architect',
             'technologies' => 'OOP, PHP, PHP7, HTML, CSS3, SASS, Compass, Javascript, Prototype, Magento 2 EE, API Rest, Service Contracts, Dependency Injection, Composer, MySQL, Scrum.',
             'description' => 'Develop customizations to the Magento Order Management module from magento 2.'."\n".'I\'ve developed a complex Middleware implementation in order to connect AWS SQS with Magento Order Management JSON RPC 2.0'."\n".' I\'ve used Composer in order to modularize the project.',
         ),
-    )
+    )*/
 );

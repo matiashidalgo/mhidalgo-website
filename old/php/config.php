@@ -22,20 +22,20 @@ if (!isset($_GET['lang'])) {
     }
 }
 $yearExperience = calculateYears(array('day' => 1, 'month' => 1, 'year' => 2008));
-$keywords = 'magento, magento 2, magento 2 solution specialist, magento 2 order management, e-commerce, php, web developer, web, developer, desarrollador, programación, programador, HTML, HTML5, CSS3, CSS, Yii, Framework, MVC, Matias, Hidalgo, Senior';
+$keywords = 'magento, magento 2, architect, magento 2 solution specialist, magento 2 order management, e-commerce, php, web developer, web, developer, desarrollador, programación, programador, HTML, HTML5, CSS3, CSS, Yii, Framework, MVC, Matias, Hidalgo, Senior';
 $config = array(
     'es' => array(
-        'title' => 'Matias Hidalgo - Senior Magento Developer x7 Certificado - vCard',
+        'title' => 'Matias Hidalgo - Magento Architect x7 Certificado - vCard',
         'metas' => array(
-            'description'   => 'vCard de Matias Hidalgo, Senior Magento developer con más de '.$yearExperience.' años de experiencia desarrollando e-commerces y websites',
+            'description'   => 'vCard de Matias Hidalgo, Magento Architect con más de '.$yearExperience.' años de experiencia desarrollando e-commerces y websites',
             'keyword'       => $keywords,
         ),
         'email' => 'me@mhidalgo.tk'
     ),
     'en' => array(
-        'title' => 'Matias Hidalgo - Senior Magento Developer x7 Certified - vCard',
+        'title' => 'Matias Hidalgo - Magento Architect x7 Certified - vCard',
         'metas' => array(
-            'description'   => 'Matias Hidalgo vCard, Senior Magento developer with more than '.$yearExperience.' years of experience developing e-commerces and websites',
+            'description'   => 'Matias Hidalgo vCard, Magento Architect with more than '.$yearExperience.' years of experience developing e-commerces and websites',
             'keyword'       => $keywords,
         ),
         'email' => 'me@mhidalgo.tk'

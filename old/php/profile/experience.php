@@ -4,11 +4,41 @@ return array(
         'es' => array(
             'from'  => array(
                 'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Architect',
+            'company'       => 'Imagination Media',
+            'description'   => 'Como Magento Architect, Sere responsable del Discovery, Scope Processing, Development, Team Leadership y R&D, siempre impulsando las mejores practicas en el codigo, el mejor diseño en la implementacion del proyecto y la mejor comunicacion con mi equipo, quienes a fin de cuentas son los dueños de nuestro exito.'
+        ),
+        'en' => array(
+            'from'  => array(
+                'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
+            ),
+            'to'    => array(
+                'type' => 'now',
+            ),
+            'title'         => 'Magento Architect',
+            'company'       => 'Imagination Media',
+            'description'   => 'As Magento Architect, I will be responsible of Discovery, Scope Processing, Development, Team Leadership and R&D, always pushing forward the best practices at code, the best implementation design at project and the best communication with my team, who at the end are the owners of our successful.'
+        ),
+    ),
+    array(
+        'es' => array(
+            'from'  => array(
+                'type' => 'date',
                 'month' => 'Sept',
                 'year'  => '2019',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Blue Acorn iCi',
@@ -21,7 +51,9 @@ return array(
                 'year'  => '2019',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Blue Acorn iCi',
@@ -36,7 +68,9 @@ return array(
                 'year'  => '2019',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Mediotype',
@@ -49,7 +83,9 @@ return array(
                 'year'  => '2019',
             ),
             'to'    => array(
-                'type' => 'now',
+                'type' => 'date',
+                'month' => 'March',
+                'year'  => '2021',
             ),
             'title'         => 'Magento Tech Lead & Backend Developer',
             'company'       => 'Mediotype',
