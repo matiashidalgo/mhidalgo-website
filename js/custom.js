@@ -120,18 +120,17 @@ $(document).ready(function(){
                 data: $(this).serialize(),
                 success: function(msg)
                 {
-                    // Hide any previous response text
                     $(".status-error,.status-success").hide();
-                    if(msg == 'OK'){
-                        response = $(".status-success").show();//'<div class="status-success">'+ GLOBAL_VARS.contact.successMsg +'</div>';
+                    if(msg === 'OK'){
+                        $(".status-success").show();
+                        return;
                     }
-                    else if(msg == 'VALIDATION-NON-PASSED'){
-                        response = $(".status-error").show();//'<div class="status-error">'+ GLOBAL_VARS.contact.errorMsg +'</div>';
-                    } else {
-                        response = $(".status-error").html(msg).show();//'<div class="status-error">'+ msg +'</div>';
+                    let errorStatus = $(".status-error");
+                    if (msg === 'VALIDATION-FAILED'){
+                        errorStatus.show();
+                        return;
                     }
-                    // Show response message
-                    //$contactform.prepend(response);
+                    errorStatus.html(msg).show();
                 }
             });
         }
